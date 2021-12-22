@@ -17,8 +17,9 @@ VALUES ("Head Accounting", 50000, 1),
 INSERT INTO employee (first_name, last_name, role_id)
 VALUES ("Jamie", "Chu", 6),    
        ("Angela", "Chang", 3),
-       ("Hannah", "Lorayne", 4);
+       ("Hannah", "Lorayne", 4),
+       ("Alison", "Nguyen", 5);
 
 UPDATE employee SET manager_id = 2
-WHERE id = 1 or id = 3;
+WHERE id = 1 or id = 3 or id = 4;
 
