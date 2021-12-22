@@ -105,12 +105,11 @@ function addEmployee() {
     ])
     .then((answer) => {
       db.query(
-        "insert into employee (first_name, last_name, role_id, manager_id) values (?, ?, ?, ?)",
+        "insert into employee (first_name, last_name, role_id) values (?, ?, ?)",
         [
           answer.employeeFirstName,
           answer.employeeLastName,
           answer.employeeRoleId,
-          answer.employeeManagerId,
         ],
         (err, data) => {
           console.log("Your new Employee has been added!");
