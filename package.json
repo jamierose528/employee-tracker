@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/jamierose528/employee-tracker#readme",
   "dependencies": {
-    "inquirer": "^8.2.0"
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
   }
 }
