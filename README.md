@@ -24,5 +24,3 @@ https://watch.screencastify.com/v/tNoU2mfuFvFn3sLjQgEI
 ## Github Repo
 
 https://github.com/jamierose528/employee-tracker
-
-## Deployed Link
